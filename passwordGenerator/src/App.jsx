@@ -19,7 +19,7 @@ function App() {
     if(charAllowed) str += "!@#$%^&*()_+"
 
     for(let i = 0; i < length; i++) {
-      const char = Math.floor(Math.random() * str.length + 1)
+      const char = Math.floor(Math.random() * str.length)
       pass += str.charAt(char)
     }
 
